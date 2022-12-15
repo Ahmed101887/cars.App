@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/consants.dart';
 
-class Login extends StatelessWidget {
-  const Login({super.key});
+class Register extends StatelessWidget {
+  const Register({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +16,11 @@ class Login extends StatelessWidget {
           child: Column(mainAxisAlignment: MainAxisAlignment.center,
               // ignore: prefer_const_literals_to_create_immutables
               children: [
+                Mytextfield(
+                  textInputTypee: TextInputType.emailAddress,
+                  ispassword: false,
+                  hinttextt: "enter Your Email:",
+                ),
                 const SizedBox(
                   height: 70,
                 ),
