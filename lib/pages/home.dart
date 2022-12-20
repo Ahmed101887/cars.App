@@ -22,17 +22,28 @@ class Home extends StatelessWidget {
                 child: GestureDetector(
                   onTap: () {},
                   child: GridTile(
+                      footer: GridTileBar(
+                        trailing: IconButton(
+                          color: Color.fromARGB(255, 2, 22, 7),
+                          onPressed: () {},
+                          icon: Icon(Icons.add),
+                        ),
+                        leading: Text("\$50000"),
+                        title: Text(
+                          "",
+                        ),
+                      ),
                       child: Stack(children: [
-                    Positioned(
-                      top: -3,
-                      bottom: -9,
-                      right: 0,
-                      left: 0,
-                      child: ClipRRect(
-                          borderRadius: BorderRadius.circular(60),
-                          child: Image.asset("assets/img/toyota2022.webp")),
-                    ),
-                  ])),
+                        Positioned(
+                          top: -3,
+                          bottom: -9,
+                          right: 0,
+                          left: 0,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(60),
+                              child: Image.asset("assets/img/toyota2022.webp")),
+                        ),
+                      ])),
                 ),
               );
             }),
