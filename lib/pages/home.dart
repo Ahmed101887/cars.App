@@ -9,6 +9,19 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        body: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                childAspectRatio: 3 / 2,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 33),
+            itemCount: 12,
+            itemBuilder: (BuildContext context, int index) {
+              return GridTile(
+                  child: ClipRRect(
+                      borderRadius: BorderRadius.circular(60),
+                      child: Image.asset("assets/img/toyota2022.webp")));
+            }),
         drawer: Drawer(
           child: Column(
             children: [
