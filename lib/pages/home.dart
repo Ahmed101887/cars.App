@@ -25,6 +25,11 @@ class Home extends StatelessWidget {
                       image: DecorationImage(
                           image: AssetImage("assets/img/download.jpg"),
                           fit: BoxFit.cover))),
+              ListTile(
+                title: Text("Home"),
+                leading: Icon(Icons.home),
+                onTap: () {},
+              )
             ],
           ),
         ),
