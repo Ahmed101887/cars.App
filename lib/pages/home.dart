@@ -17,10 +17,24 @@ class Home extends StatelessWidget {
                 mainAxisSpacing: 33),
             itemCount: 12,
             itemBuilder: (BuildContext context, int index) {
-              return GridTile(
-                  child: ClipRRect(
-                      borderRadius: BorderRadius.circular(60),
-                      child: Image.asset("assets/img/toyota2022.webp")));
+              return Padding(
+                padding: const EdgeInsets.only(top: 20),
+                child: GestureDetector(
+                  onTap: () {},
+                  child: GridTile(
+                      child: Stack(children: [
+                    Positioned(
+                      top: -3,
+                      bottom: -9,
+                      right: 0,
+                      left: 0,
+                      child: ClipRRect(
+                          borderRadius: BorderRadius.circular(60),
+                          child: Image.asset("assets/img/toyota2022.webp")),
+                    ),
+                  ])),
+                ),
+              );
             }),
         drawer: Drawer(
           child: Column(
