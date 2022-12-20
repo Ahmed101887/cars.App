@@ -29,7 +29,12 @@ class Home extends StatelessWidget {
                 title: Text("Home"),
                 leading: Icon(Icons.home),
                 onTap: () {},
-              )
+              ),
+              ListTile(
+                title: Text("My products"),
+                leading: Icon(Icons.add_shopping_cart),
+                onTap: () {},
+              ),
             ],
           ),
         ),
