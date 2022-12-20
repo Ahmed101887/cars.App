@@ -13,15 +13,18 @@ class Home extends StatelessWidget {
           child: Column(
             children: [
               UserAccountsDrawerHeader(
-                currentAccountPicture: CircleAvatar(
-                    radius: 55,
-                    backgroundImage: AssetImage("assets/img/Ahmed.jpg")),
-                accountEmail: Text("Ahmed@yahoo.com"),
-                accountName: Text("Ahmed sayed",
-                    style: TextStyle(
-                      color: Color.fromRGBO(79, 4, 4, 1),
-                    )),
-              )
+                  currentAccountPicture: CircleAvatar(
+                      radius: 55,
+                      backgroundImage: AssetImage("assets/img/Ahmed.jpg")),
+                  accountEmail: Text("Ahmed@yahoo.com"),
+                  accountName: Text("Ahmed sayed",
+                      style: TextStyle(
+                        color: Color.fromRGBO(79, 4, 4, 1),
+                      )),
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage("assets/img/download.jpg"),
+                          fit: BoxFit.cover))),
             ],
           ),
         ),
