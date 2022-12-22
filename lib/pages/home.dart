@@ -1,25 +1,11 @@
 // ignore_for_file: unused_import, prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application/model/item.dart';
 import 'package:flutter_application/shared/colors.dart';
 
-class Item {
-  String imgpath;
-  double price;
-  Item({required this.imgpath, required this.price});
-}
-
 class Home extends StatelessWidget {
-  Home({Key? key}) : super(key: key);
-  final List<Item> items = [
-    Item(imgpath: "assets/img/img1.jpg", price: 50000),
-    Item(imgpath: "assets/img/img2.jpg", price: 50000),
-    Item(imgpath: "assets/img/img3.jpg", price: 50000),
-    Item(imgpath: "assets/img/img5.jpg", price: 50000),
-    Item(imgpath: "assets/img/img6.jpg", price: 50000),
-    Item(imgpath: "assets/img/img7.jpg", price: 50000),
-    Item(imgpath: "assets/img/img8.jpg", price: 50000),
-  ];
+  const Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
