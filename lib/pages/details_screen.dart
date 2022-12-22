@@ -18,7 +18,7 @@ class Details extends StatelessWidget {
                       Container(
                           child: Text(
                             "4",
-                            style: TextStyle(
+                            style: const TextStyle(
                                 color: Color.fromARGB(255, 114, 3, 3)),
                           ),
                           padding: EdgeInsets.all(5),
@@ -42,6 +42,6 @@ class Details extends StatelessWidget {
 }
 
       body: Text("details")
-      );
-  }
+      
+}
 }
