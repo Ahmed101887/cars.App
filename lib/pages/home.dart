@@ -3,9 +3,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/colors.dart';
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class Item {
+  String imgpath;
+  double price;
+  Item({required this.imgpath,required this.price})
+}
 
+class Home extends StatelessWidget {
+  List items = [
+    Item()
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +48,7 @@ class Home extends StatelessWidget {
                           left: 0,
                           child: ClipRRect(
                               borderRadius: BorderRadius.circular(60),
-                              child: Image.asset("assets/img/toyota2022.webp")),
+                              child: Image.asset("assets/img/land crozer.jpg")),
                         ),
                       ])),
                 ),
