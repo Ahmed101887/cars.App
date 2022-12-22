@@ -11,7 +11,7 @@ class Item {
 
 class Home extends StatelessWidget {
   List items = [
-    Item()
+    Item(imgpath:"dddd")
   ];
   @override
   Widget build(BuildContext context) {
