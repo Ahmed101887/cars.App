@@ -12,6 +12,18 @@ class Item {
 class Home extends StatelessWidget {
   List items = [
     Item(imgpath:"assets/img/toyota 2019.jpg",price:50000)
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+        Item(imgpath:"assets/img/toyota2020.jpg",price:50000)
+
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
+
+
+    
     
   ];
   @override
@@ -23,7 +35,7 @@ class Home extends StatelessWidget {
                 childAspectRatio: 3 / 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 33),
-            itemCount: 12,
+            itemCount: 8,
             itemBuilder: (BuildContext context, int index) {
               return Padding(
                 padding: const EdgeInsets.only(top: 20),
