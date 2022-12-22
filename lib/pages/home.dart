@@ -6,26 +6,21 @@ import 'package:flutter_application/shared/colors.dart';
 class Item {
   String imgpath;
   double price;
-  Item({required this.imgpath,required this.price})
+  Item({required this.imgpath, required this.price});
 }
 
 class Home extends StatelessWidget {
-  List items = [
-    Item(imgpath:"assets/img/toyota 2019.jpg",price:50000)
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-        Item(imgpath:"assets/img/toyota2020.jpg",price:50000)
-
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-    Item(imgpath:"assets/img/toyota.webp.jpg",price:50000)
-
-
-    
-    
+  Home({Key? key}) : super(key: key);
+  final List<Item> items = [
+    Item(imgpath: "assets/img/img1.jpg", price: 50000),
+    Item(imgpath: "assets/img/img2.jpg", price: 50000),
+    Item(imgpath: "assets/img/img3.jpg", price: 50000),
+    Item(imgpath: "assets/img/img5.jpg", price: 50000),
+    Item(imgpath: "assets/img/img6.jpg", price: 50000),
+    Item(imgpath: "assets/img/img7.jpg", price: 50000),
+    Item(imgpath: "assets/img/img8.jpg", price: 50000),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +30,7 @@ class Home extends StatelessWidget {
                 childAspectRatio: 3 / 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 33),
-            itemCount: 8,
+            itemCount: items.length,
             itemBuilder: (BuildContext context, int index) {
               return Padding(
                 padding: const EdgeInsets.only(top: 20),
