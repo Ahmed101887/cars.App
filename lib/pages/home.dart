@@ -11,7 +11,8 @@ class Item {
 
 class Home extends StatelessWidget {
   List items = [
-    Item(imgpath:"dddd",price:50000)
+    Item(imgpath:"assets/img/toyota 2019.jpg",price:50000)
+    
   ];
   @override
   Widget build(BuildContext context) {
