@@ -1,9 +1,9 @@
-// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last, dead_code
+// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/colors.dart';
 
-abstract class Details extends StatefulWidget {
+class Details extends StatefulWidget {
   const Details({super.key});
 
   Widget build(BuildContext context) {
@@ -36,8 +36,16 @@ abstract class Details extends StatefulWidget {
       ),
     );
 
+    // ignore: dead_code
     @override
-    dynamic noSuchMethod(Invocation invocation) =>
-        super.noSuchMethod(invocation);
+    State<Details> createState() => _DetailsState();
   }
+
+  @override
+  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
+}
+
+class _DetailsState extends State<Details> {
+  @override
+  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
