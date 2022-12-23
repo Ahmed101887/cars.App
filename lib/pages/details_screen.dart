@@ -31,9 +31,16 @@ class Details extends StatefulWidget {
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.add_shopping_cart),
-                  )
+                  ),
                 ],
-              )
+              ),
+              Padding(
+                padding: const EdgeInsets.only(right: 13),
+                child: Text(
+                  "\$50000",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
             ],
           )
         ],
