@@ -66,6 +66,10 @@ class Details extends StatefulWidget {
               children: [
                 Container(
                   padding: EdgeInsets.all(4),
+                  child: Text(
+                    "New",
+                    style: TextStyle(fontSize: 16),
+                  ),
                 )
               ],
             )
