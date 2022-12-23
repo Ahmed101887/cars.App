@@ -111,6 +111,16 @@ class Details extends StatefulWidget {
                 SizedBox(
                   width: 66,
                 ),
+                Row(
+                  // ignore: prefer_const_literals_to_create_immutables
+                  children: [
+                    Icon(
+                      Icons.edit_location,
+                      size: 26,
+                      color: Color.fromARGB(168, 3, 65, 27),
+                    )
+                  ],
+                )
               ],
             )
           ],
