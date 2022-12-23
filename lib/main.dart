@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application/pages/details_screen.dart';
 import 'package:flutter_application/pages/home.dart';
 import 'package:flutter_application/provider/cart.dart';
+
 import "package:provider/provider.dart";
 
 void main() {
