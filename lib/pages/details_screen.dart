@@ -47,7 +47,11 @@ class Details extends StatefulWidget {
         backgroundColor: appbarGreen,
         title: Text("Details screen"),
       ),
-      body: SingleChildScrollView(),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [Image.asset("assets/img/img2.jpg")],
+        ),
+      ),
     );
 
     // ignore: dead_code
