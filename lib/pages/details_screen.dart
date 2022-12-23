@@ -1,4 +1,4 @@
-// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last
+// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last, annotate_overrides
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/colors.dart';
@@ -61,6 +61,14 @@ class Details extends StatefulWidget {
             SizedBox(
               height: 16,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  padding: EdgeInsets.all(4),
+                )
+              ],
+            )
           ],
         ),
       ),
@@ -71,7 +79,6 @@ class Details extends StatefulWidget {
     _DetailsState createState() => _DetailsState();
   }
 
-  @override
   dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
