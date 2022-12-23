@@ -54,6 +54,10 @@ class Details extends StatefulWidget {
             SizedBox(
               height: 12,
             ),
+            Text(
+              "\$50000",
+              style: TextStyle(fontSize: 20),
+            ),
           ],
         ),
       ),
