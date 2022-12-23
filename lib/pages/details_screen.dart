@@ -42,7 +42,7 @@ class Details extends StatefulWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 13),
                 child: Text(
-                  "\$50000",
+                  "\$ (product.price)",
                   style: TextStyle(fontSize: 20),
                 ),
               ),
