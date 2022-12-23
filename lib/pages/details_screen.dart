@@ -138,6 +138,9 @@ class Details extends StatefulWidget {
                 textAlign: TextAlign.start,
               ),
             ),
+            SizedBox(
+              height: 16,
+            ),
           ],
         ),
       ),
