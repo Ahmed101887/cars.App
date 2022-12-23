@@ -91,6 +91,21 @@ class Details extends StatefulWidget {
                         size: 26,
                         color: Color.fromARGB(255, 255, 191, 0),
                       ),
+                      Icon(
+                        Icons.star,
+                        size: 26,
+                        color: Color.fromARGB(255, 255, 191, 0),
+                      ),
+                      Icon(
+                        Icons.star,
+                        size: 26,
+                        color: Color.fromARGB(255, 255, 191, 0),
+                      ),
+                      Icon(
+                        Icons.star,
+                        size: 26,
+                        color: Color.fromARGB(255, 255, 191, 0),
+                      ),
                     ])
               ],
             )
