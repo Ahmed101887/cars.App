@@ -1,9 +1,12 @@
 // ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last, annotate_overrides, use_key_in_widget_constructors, must_be_immutable
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application/model/item.dart';
 import 'package:flutter_application/shared/colors.dart';
 
 class Details extends StatefulWidget {
+  Item product;
+  Details({required this.product});
   bool isShowmore = true;
 
   get isShowMore => null;

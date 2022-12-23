@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/model/item.dart';
+import 'package:flutter_application/pages/details_screen.dart';
 import 'package:flutter_application/shared/colors.dart';
 
 class Home extends StatelessWidget {
@@ -21,7 +22,14 @@ class Home extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.only(top: 20),
                 child: GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Details(product: items[0]),
+                      ),
+                    );
+                  },
                   child: GridTile(
                       footer: GridTileBar(
                         trailing: IconButton(
