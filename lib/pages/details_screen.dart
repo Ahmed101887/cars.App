@@ -44,6 +44,8 @@ class Details extends StatefulWidget {
             ],
           )
         ],
+        backgroundColor: appbarGreen,
+        title: Text("Details screen"),
       ),
     );
 
