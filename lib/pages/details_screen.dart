@@ -1,4 +1,4 @@
-// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers
+// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers, sort_child_properties_last
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/colors.dart';
@@ -23,6 +23,7 @@ class Details extends StatefulWidget {
                               fontSize: 18,
                               color: Color.fromARGB(255, 0, 0, 0)),
                         ),
+                        padding: EdgeInsets.all(5),
                       ))
                 ],
               )
