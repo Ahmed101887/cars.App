@@ -47,6 +47,7 @@ class Details extends StatefulWidget {
         backgroundColor: appbarGreen,
         title: Text("Details screen"),
       ),
+      body: SingleChildScrollView(),
     );
 
     // ignore: dead_code
