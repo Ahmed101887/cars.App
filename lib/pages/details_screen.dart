@@ -141,6 +141,12 @@ class Details extends StatefulWidget {
             SizedBox(
               height: 16,
             ),
+            Text(
+              "A cars,It is a very important technological innovation that was invented in the nineteenth century as a source of energy. He started using steam and then continued to use oil in internal combustion engines. Today, studies have gained speed on the production of cars that run on alternative energy sources.",
+              style: TextStyle(
+                fontSize: 18,
+              ),
+            )
           ],
         ),
       ),
