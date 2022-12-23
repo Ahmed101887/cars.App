@@ -72,7 +72,11 @@ class Details extends StatefulWidget {
                   ),
                   decoration: BoxDecoration(
                     color: Color.fromARGB(255, 255, 129, 129),
+                    borderRadius: BorderRadius.circular(4),
                   ),
+                ),
+                SizedBox(
+                  width: 8,
                 )
               ],
             )
