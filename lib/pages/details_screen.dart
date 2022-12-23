@@ -79,34 +79,38 @@ class Details extends StatefulWidget {
                   width: 8,
                 ),
                 Row(
-                    // ignore: prefer_const_literals_to_create_immutables
-                    children: [
-                      Icon(
-                        Icons.star,
-                        size: 26,
-                        color: Color.fromARGB(255, 255, 191, 0),
-                      ),
-                      Icon(
-                        Icons.star,
-                        size: 26,
-                        color: Color.fromARGB(255, 255, 191, 0),
-                      ),
-                      Icon(
-                        Icons.star,
-                        size: 26,
-                        color: Color.fromARGB(255, 255, 191, 0),
-                      ),
-                      Icon(
-                        Icons.star,
-                        size: 26,
-                        color: Color.fromARGB(255, 255, 191, 0),
-                      ),
-                      Icon(
-                        Icons.star,
-                        size: 26,
-                        color: Color.fromARGB(255, 255, 191, 0),
-                      ),
-                    ])
+                  // ignore: prefer_const_literals_to_create_immutables
+                  children: [
+                    Icon(
+                      Icons.star,
+                      size: 26,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 26,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 26,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 26,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 26,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 66,
+                ),
               ],
             )
           ],
