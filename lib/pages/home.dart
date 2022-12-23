@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => Details(product: items[0]),
+                        builder: (context) => Details(product: items[index]),
                       ),
                     );
                   },
