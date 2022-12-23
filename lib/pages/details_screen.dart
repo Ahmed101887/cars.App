@@ -58,6 +58,9 @@ class Details extends StatefulWidget {
               "\$50000",
               style: TextStyle(fontSize: 20),
             ),
+            SizedBox(
+              height: 16,
+            ),
           ],
         ),
       ),
@@ -65,14 +68,11 @@ class Details extends StatefulWidget {
 
     // ignore: dead_code
     @override
-    State<Details> createState() => _DetailsState();
+    _DetailsState createState() => _DetailsState();
   }
 
   @override
   dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
-class _DetailsState extends State<Details> {
-  @override
-  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
-}
+class _DetailsState {}
