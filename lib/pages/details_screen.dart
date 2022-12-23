@@ -49,7 +49,12 @@ class Details extends StatefulWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: [Image.asset("assets/img/img2.jpg")],
+          children: [
+            Image.asset("assets/img/img2.jpg"),
+            SizedBox(
+              height: 12,
+            ),
+          ],
         ),
       ),
     );
