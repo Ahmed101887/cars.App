@@ -105,7 +105,7 @@ class Home extends StatelessWidget {
                     children: [
                       Container(
                           child: Text(
-                            "4",
+                            "0",
                             style: TextStyle(
                                 color: Color.fromARGB(255, 114, 3, 3)),
                           ),
@@ -118,7 +118,7 @@ class Home extends StatelessWidget {
                           icon: Icon(Icons.add_shopping_cart)),
                     ],
                   ),
-                  Text("\$50000", style: TextStyle(fontSize: 20)),
+                  Text("\$0", style: TextStyle(fontSize: 20)),
                 ],
               ),
             ),
