@@ -5,7 +5,7 @@ import 'package:flutter_application/pages/details_screen.dart';
 import 'package:flutter_application/pages/home.dart';
 import 'package:flutter_application/provider/cart.dart';
 
-import "package:provider/provider.dart";
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());

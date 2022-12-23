@@ -1,8 +1,11 @@
 // ignore_for_file: unused_import, prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last
 
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application/model/item.dart';
 import 'package:flutter_application/pages/details_screen.dart';
+import 'package:flutter_application/provider/cart.dart';
 import 'package:flutter_application/shared/colors.dart';
 
 class Home extends StatelessWidget {
@@ -124,7 +127,9 @@ class Home extends StatelessWidget {
             ),
           ],
           backgroundColor: appbarGreen,
-          title: Text("Home"),
+          title: consumer<Cart>(builder: ((context, testt, child) {
+            return Text("${testt.myName}");
+          })),
         ));
   }
 }
