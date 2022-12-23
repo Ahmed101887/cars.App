@@ -1,4 +1,4 @@
-// ignore_for_file: unused_element, prefer_const_constructors, unused_import
+// ignore_for_file: unused_element, prefer_const_constructors, unused_import, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/shared/colors.dart';
@@ -11,26 +11,30 @@ class Details extends StatefulWidget {
       appBar: AppBar(
         actions: [
           Row(
-       
-        
-      ))
-  ],
-)
+            children: [
+              Stack(
+                children: [
+                  Positioned(
+                      bottom: 24,
+                      child: Container(
+                        child: Text(
+                          "8",
+                          style: TextStyle(
+                              fontSize: 18,
+                              color: Color.fromARGB(255, 0, 0, 0)),
+                        ),
+                      ))
+                ],
+              )
             ],
           )
-          
         ],
       ),
+    );
 
-    )
-
-
-  // ignore: dead_code
-  @override
-  State<Details> createState() =>
-_DetailsState ();
-
-  
+    // ignore: dead_code
+    @override
+    State<Details> createState() => _DetailsState();
   }
 
   @override
@@ -38,8 +42,6 @@ _DetailsState ();
 }
 
 class _DetailsState extends State<Details> {
-  
-
   @override
   dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
