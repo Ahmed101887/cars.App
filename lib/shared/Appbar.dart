@@ -21,3 +21,4 @@ class ProductsAndPrice extends StatelessWidget {
                     style: TextStyle(
                         fontSize: 16, color: Color.fromARGB(255, 0, 0, 0)),
                   ),
+                  padding: EdgeInsets.all(5),
