@@ -18,3 +18,4 @@ class ProductsAndPrice extends StatelessWidget {
               child: Container(
                   child: Text(
                     "${Carttt.selectedProducts.length}",
+                    style: TextStyle(
