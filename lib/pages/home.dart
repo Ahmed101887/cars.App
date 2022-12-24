@@ -7,6 +7,7 @@ import 'package:flutter_application/model/item.dart';
 import 'package:flutter_application/pages/details_screen.dart';
 import 'package:flutter_application/provider/cart.dart';
 import 'package:flutter_application/shared/colors.dart';
+import 'package:provider/provider.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -127,7 +128,7 @@ class Home extends StatelessWidget {
             ),
           ],
           backgroundColor: appbarGreen,
-          title: consumer<Cart>(builder: ((context, testt, child) {
+          title: Consumer<Cart>(builder: ((context, testt, child) {
             return Text("${testt.myName}");
           })),
         ));
