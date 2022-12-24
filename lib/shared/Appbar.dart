@@ -39,3 +39,4 @@ class ProductsAndPrice extends StatelessWidget {
             ),
           ],
         ),
+        Padding(
