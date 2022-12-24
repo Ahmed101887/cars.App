@@ -27,3 +27,5 @@ class ProductsAndPrice extends StatelessWidget {
                       shape: BoxShape.circle)),
             ),
             IconButton(
+              onPressed: () {
+                Navigator.push(
