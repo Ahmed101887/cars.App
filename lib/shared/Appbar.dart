@@ -34,3 +34,4 @@ class ProductsAndPrice extends StatelessWidget {
                         builder: (context) => CheckOut(),
                       ),
                     );
+              },
