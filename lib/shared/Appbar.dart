@@ -29,3 +29,4 @@ class ProductsAndPrice extends StatelessWidget {
             IconButton(
               onPressed: () {
                 Navigator.push(
+                      context,
