@@ -13,3 +13,5 @@ class CheckOut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Carttt = Provider.of<Cart>(context);
+    return Scaffold(
+      appBar: AppBar(
