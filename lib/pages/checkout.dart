@@ -19,3 +19,5 @@ class CheckOut extends StatelessWidget {
         title: Text("checkout screen"),
         actions: [ProductsAndPrice()],
       ),
+      body: Column(
+        children: [
