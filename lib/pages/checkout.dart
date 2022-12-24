@@ -31,3 +31,5 @@ class CheckOut extends StatelessWidget {
                     return Card(
                       child: ListTile(
                         title: Text(Carttt.selectedProducts[index].name),
+                        subtitle: Text(
+                            "${Carttt.selectedProducts[index].price} - ${Carttt.selectedProducts[index].location}"),
