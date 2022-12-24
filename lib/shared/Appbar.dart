@@ -32,3 +32,4 @@ class ProductsAndPrice extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) => CheckOut(),
+                      ),
