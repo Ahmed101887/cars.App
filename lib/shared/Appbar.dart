@@ -40,3 +40,4 @@ class ProductsAndPrice extends StatelessWidget {
           ],
         ),
         Padding(
+          padding: const EdgeInsets.only(right: 12),
