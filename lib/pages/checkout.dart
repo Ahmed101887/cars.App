@@ -9,3 +9,7 @@ import 'package:provider/provider.dart';
 
 class CheckOut extends StatelessWidget {
   const CheckOut({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final Carttt = Provider.of<Cart>(context);
