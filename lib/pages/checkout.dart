@@ -33,3 +33,7 @@ class CheckOut extends StatelessWidget {
                         title: Text(Carttt.selectedProducts[index].name),
                         subtitle: Text(
                             "${Carttt.selectedProducts[index].price} - ${Carttt.selectedProducts[index].location}"),
+                        leading: CircleAvatar(
+                          backgroundImage: AssetImage(
+                              Carttt.selectedProducts[index].imgPath),
+                        ),
