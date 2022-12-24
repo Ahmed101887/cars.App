@@ -26,3 +26,4 @@ class ProductsAndPrice extends StatelessWidget {
                       color: Color.fromARGB(211, 164, 255, 193),
                       shape: BoxShape.circle)),
             ),
+            IconButton(
