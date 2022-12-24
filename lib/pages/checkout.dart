@@ -37,3 +37,6 @@ class CheckOut extends StatelessWidget {
                           backgroundImage: AssetImage(
                               Carttt.selectedProducts[index].imgPath),
                         ),
+                        trailing: IconButton(
+                            onPressed: () {
+                              Carttt.delete(Carttt.selectedProducts[index]);
