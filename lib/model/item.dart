@@ -1,6 +1,7 @@
 class Item {
   String imgpath;
   double price;
+
   Item({required this.imgpath, required this.price});
 }
 
