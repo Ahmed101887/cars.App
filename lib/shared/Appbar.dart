@@ -30,3 +30,4 @@ class ProductsAndPrice extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                       context,
+                      MaterialPageRoute(
