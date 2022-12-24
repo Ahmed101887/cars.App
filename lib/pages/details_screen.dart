@@ -175,7 +175,17 @@ class Details extends StatefulWidget {
     _DetailsState createState() => _DetailsState();
   }
 
-  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    throw UnimplementedError();
+  }
+
+  @override
+  Element createElement() {
+    // TODO: implement createElement
+    throw UnimplementedError();
+  }
 }
 
 void setState(Null Function() param0) {}
