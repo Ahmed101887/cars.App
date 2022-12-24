@@ -14,3 +14,4 @@ class ProductsAndPrice extends StatelessWidget {
         Stack(
           children: [
             Positioned(
+              bottom: 24,
