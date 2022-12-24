@@ -46,3 +46,4 @@ class ProductsAndPrice extends StatelessWidget {
             style: TextStyle(fontSize: 18),
           ),
         ),
+      ],
