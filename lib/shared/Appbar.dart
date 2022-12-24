@@ -36,3 +36,4 @@ class ProductsAndPrice extends StatelessWidget {
                     );
               },
               icon: Icon(Icons.add_shopping_cart),
+            ),
