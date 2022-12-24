@@ -1,10 +1,9 @@
 
-/ ignore_for_file: prefer_const_constructors
+// / ignore_for_file: prefer_const_constructors
 
-import 'package:flower_app/model/item.dart';
-import 'package:flower_app/provider/cart.dart';
-import 'package:flower_app/shared/appbar.dart';
-import 'package:flower_app/shared/colors.dart';
+import 'package:flutter_application/model/item.dart';
+import 'package:flutter_application/provider/cart.dart';
+import 'package:flutter_application/shared/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -65,4 +64,4 @@ class CheckOut extends StatelessWidget {
       ),
     );
   }
-}
+}\
