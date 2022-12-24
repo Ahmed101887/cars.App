@@ -47,3 +47,4 @@ class ProductsAndPrice extends StatelessWidget {
           ),
         ),
       ],
+    );
