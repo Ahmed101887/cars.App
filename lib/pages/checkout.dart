@@ -43,3 +43,6 @@ class CheckOut extends StatelessWidget {
                             },
                             icon: Icon(Icons.remove)),
                       ),
+                    );
+                  }),
+            ),
