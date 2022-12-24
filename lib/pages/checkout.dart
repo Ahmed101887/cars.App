@@ -21,3 +21,7 @@ class CheckOut extends StatelessWidget {
       ),
       body: Column(
         children: [
+          SingleChildScrollView(
+            child: SizedBox(
+              height: 550,
+              child: ListView.builder(
