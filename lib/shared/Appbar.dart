@@ -25,3 +25,4 @@ class ProductsAndPrice extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Color.fromARGB(211, 164, 255, 193),
                       shape: BoxShape.circle)),
+            ),
