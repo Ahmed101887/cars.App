@@ -59,4 +59,6 @@ class CheckOut extends StatelessWidget {
               shape: MaterialStateProperty.all(RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8))),
             ),
-,
+          ),
+        ],
+      ),
