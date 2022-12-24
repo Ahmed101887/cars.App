@@ -6,3 +6,8 @@ import 'package:provider/provider.dart';
 class ProductsAndPrice extends StatelessWidget {
   const ProductsAndPrice({Key? key}) : super(key: key);
 
+  @override
+  Widget build(BuildContext context) {
+    final Carttt = Provider.of<Cart>(context);
+    return Row(
+      children: [
