@@ -11,3 +11,5 @@ class ProductsAndPrice extends StatelessWidget {
     final Carttt = Provider.of<Cart>(context);
     return Row(
       children: [
+        Stack(
+          children: [
