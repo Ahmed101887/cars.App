@@ -17,3 +17,5 @@ class CheckOut extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: appbarGreen,
         title: Text("checkout screen"),
+        actions: [ProductsAndPrice()],
+      ),
