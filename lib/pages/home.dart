@@ -14,6 +14,8 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final Carttt = Provider.of<Cart>(context);
+
     return Scaffold(
         body: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -129,7 +131,7 @@ class Home extends StatelessWidget {
           ],
           backgroundColor: appbarGreen,
           title: Consumer<Cart>(builder: ((context, testt, child) {
-            return Text("${testt.myName}");
+            return Text("${testt.price}");
           })),
         ));
   }
