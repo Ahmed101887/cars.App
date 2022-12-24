@@ -20,3 +20,4 @@ class ProductsAndPrice extends StatelessWidget {
                     "${Carttt.selectedProducts.length}",
                     style: TextStyle(
                         fontSize: 16, color: Color.fromARGB(255, 0, 0, 0)),
+                  ),
