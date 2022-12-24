@@ -40,3 +40,6 @@ class CheckOut extends StatelessWidget {
                         trailing: IconButton(
                             onPressed: () {
                               Carttt.delete(Carttt.selectedProducts[index]);
+                            },
+                            icon: Icon(Icons.remove)),
+                      ),
