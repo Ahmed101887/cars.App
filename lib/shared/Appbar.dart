@@ -45,3 +45,4 @@ class ProductsAndPrice extends StatelessWidget {
             "\$ ${Carttt.price}",
             style: TextStyle(fontSize: 18),
           ),
+        ),
