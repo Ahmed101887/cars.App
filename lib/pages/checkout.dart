@@ -62,3 +62,6 @@ class CheckOut extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
