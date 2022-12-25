@@ -44,3 +44,5 @@ class _DetailsState extends State<Details> {
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
