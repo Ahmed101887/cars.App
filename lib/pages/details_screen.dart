@@ -34,3 +34,5 @@ class _DetailsState extends State<Details> {
               Image.asset(widget.product.imgPath),
               SizedBox(
                 height: 11,
+              ),
+              Text(
