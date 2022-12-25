@@ -145,4 +145,7 @@ class _DetailsState extends State<Details> {
                     ),
                   ))
             ],
-
+          ),
+        ));
+  }
+}
