@@ -38,3 +38,5 @@ class _DetailsState extends State<Details> {
               Text(
                 "\$  ${widget.product.price}",
                 style: TextStyle(fontSize: 20),
+              ),
+              SizedBox(
