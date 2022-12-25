@@ -3,6 +3,8 @@ class Item {
   double price;
 
   Item({required this.imgpath, required this.price});
+
+  Null get location => null;
 }
 
 final List<Item> items = [

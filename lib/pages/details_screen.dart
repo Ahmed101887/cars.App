@@ -1,9 +1,9 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, must_be_immutable
 
-import 'package:flower_app/model/item.dart';
-import 'package:flower_app/shared/appbar.dart';
-import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application/model/item.dart';
+import 'package:flutter_application/shared/Appbar.dart';
+import 'package:flutter_application/shared/colors.dart';
 
 class Details extends StatefulWidget {
   Item product;
@@ -11,6 +11,9 @@ class Details extends StatefulWidget {
 
   @override
   State<Details> createState() => _DetailsState();
+
+  @override
+  dynamic noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 class _DetailsState extends State<Details> {
@@ -19,19 +22,17 @@ class _DetailsState extends State<Details> {
 
   @override
   Widget build(BuildContext context) {
+    var location2 = widget.product.location;
     return Scaffold(
         appBar: AppBar(
-          actions: [
-            ProductsAndPrice()
-          
-          ],
+          actions: [ProductsAndPrice()],
           backgroundColor: appbarGreen,
           title: Text("Details screen"),
         ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset(widget.product.imgPath),
+              Image.asset(widget.product.imgpath),
               SizedBox(
                 height: 11,
               ),
@@ -102,5 +103,49 @@ class _DetailsState extends State<Details> {
                         width: 3,
                       ),
                       Text(
-                        widget.product.location,
+                        location2,
                         style: TextStyle(fontSize: 19),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 16,
+              ),
+              SizedBox(
+                width: double.infinity,
+                child: Text(
+                  "Details : ",
+                  style: TextStyle(fontSize: 22),
+                  textAlign: TextAlign.start,
+                ),
+              ),
+              SizedBox(
+                height: 16,
+              ),
+              Text(
+                "A cars,It is a very important technological innovation that was invented in the nineteenth century as a source of energy. He started using steam and then continued to use oil in internal combustion engines. Today, studies have gained speed on the production of cars that run on alternative energy sources.",
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+                maxLines: isShowMore ? 3 : null,
+                overflow: TextOverflow.fade,
+              ),
+              TextButton(
+                  onPressed: () {
+                    setState(() {
+                      isShowMore = !isShowMore;
+                    });
+                  },
+                  child: Text(
+                    isShowMore ? "Show more" : "Show less",
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),
+                  ))
+            ],
+          ),
+        ));
+  }
+}
