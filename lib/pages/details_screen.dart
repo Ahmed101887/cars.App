@@ -42,3 +42,5 @@ class _DetailsState extends State<Details> {
               SizedBox(
                 height: 16,
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
