@@ -70,3 +70,5 @@ class _DetailsState extends State<Details> {
                         size: 26,
                         color: Color.fromARGB(255, 255, 191, 0),
                       ),
+                      Icon(
+                        Icons.star,
