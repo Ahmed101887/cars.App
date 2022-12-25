@@ -56,3 +56,5 @@ class _DetailsState extends State<Details> {
                         borderRadius: BorderRadius.circular(4),
                       )),
                   SizedBox(
+                    width: 8,
+                  ),
