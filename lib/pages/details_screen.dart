@@ -40,3 +40,5 @@ class _DetailsState extends State<Details> {
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(
+                height: 16,
+              ),
