@@ -97,3 +97,6 @@ class _DetailsState extends State<Details> {
                         size: 26,
                         color: Color.fromARGB(168, 3, 65, 27),
                         // color: Color.fromARGB(255, 186, 30, 30),
+                      ),
+                      SizedBox(
+                        width: 3,
