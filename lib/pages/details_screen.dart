@@ -6,3 +6,5 @@ import 'package:flower_app/shared/colors.dart';
 import 'package:flutter/material.dart';
 
 class Details extends StatefulWidget {
+  Item product;
+  Details({required this.product});
