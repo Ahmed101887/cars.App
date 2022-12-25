@@ -93,3 +93,6 @@ class _DetailsState extends State<Details> {
                   Row(
                     children: [
                       Icon(
+                        Icons.edit_location,
+                        size: 26,
+.
