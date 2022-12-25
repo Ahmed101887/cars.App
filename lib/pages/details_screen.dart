@@ -50,3 +50,5 @@ class _DetailsState extends State<Details> {
                       child: Text(
                         "New",
                         style: TextStyle(fontSize: 15),
+                      ),
+                      decoration: BoxDecoration(
