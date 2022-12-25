@@ -143,4 +143,6 @@ class _DetailsState extends State<Details> {
                     style: TextStyle(
                       fontSize: 18,
                     ),
+                  ))
+            ],
 
