@@ -48,3 +48,5 @@ class _DetailsState extends State<Details> {
                   Container(
                       padding: EdgeInsets.all(4),
                       child: Text(
+                        "New",
+                        style: TextStyle(fontSize: 15),
