@@ -60,3 +60,5 @@ class _DetailsState extends State<Details> {
                   ),
                   Row(
                     children: [
+                      Icon(
+                        Icons.star,
