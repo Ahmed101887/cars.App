@@ -29,3 +29,4 @@ class _DetailsState extends State<Details> {
           title: Text("Details screen"),
         ),
         body: SingleChildScrollView(
+          child: Column(
