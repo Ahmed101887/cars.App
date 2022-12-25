@@ -24,3 +24,5 @@ class _DetailsState extends State<Details> {
           actions: [
             ProductsAndPrice()
           
+          ],
+          backgroundColor: appbarGreen,
