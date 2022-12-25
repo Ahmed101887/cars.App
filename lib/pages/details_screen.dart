@@ -22,3 +22,5 @@ class _DetailsState extends State<Details> {
     return Scaffold(
         appBar: AppBar(
           actions: [
+            ProductsAndPrice()
+          
