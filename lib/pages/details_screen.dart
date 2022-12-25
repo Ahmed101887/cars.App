@@ -91,3 +91,5 @@ class _DetailsState extends State<Details> {
                     width: 66,
                   ),
                   Row(
+                    children: [
+                      Icon(
