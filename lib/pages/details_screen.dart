@@ -10,3 +10,4 @@ class Details extends StatefulWidget {
   Details({required this.product});
 
   @override
+  State<Details> createState() => _DetailsState();
