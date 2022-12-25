@@ -14,3 +14,5 @@ class Details extends StatefulWidget {
 }
 
 class _DetailsState extends State<Details> {
+  // const Details({Key? key}) : super(key: key);
+  bool isShowMore = true;
