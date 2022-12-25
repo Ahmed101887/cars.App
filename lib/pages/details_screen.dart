@@ -46,3 +46,5 @@ class _DetailsState extends State<Details> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
+                      padding: EdgeInsets.all(4),
+                      child: Text(
