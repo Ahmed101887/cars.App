@@ -30,3 +30,5 @@ class _DetailsState extends State<Details> {
         ),
         body: SingleChildScrollView(
           child: Column(
+            children: [
+              Image.asset(widget.product.imgPath),
