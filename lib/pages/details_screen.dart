@@ -87,3 +87,5 @@ class _DetailsState extends State<Details> {
                       ),
                     ],
                   ),
+                  SizedBox(
+                    width: 66,
