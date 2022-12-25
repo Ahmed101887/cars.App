@@ -58,3 +58,5 @@ class _DetailsState extends State<Details> {
                   SizedBox(
                     width: 8,
                   ),
+                  Row(
+                    children: [
