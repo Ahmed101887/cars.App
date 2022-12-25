@@ -52,3 +52,5 @@ class _DetailsState extends State<Details> {
                         style: TextStyle(fontSize: 15),
                       ),
                       decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 255, 129, 129),
+                        borderRadius: BorderRadius.circular(4),
