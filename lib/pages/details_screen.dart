@@ -142,10 +142,4 @@ class _DetailsState extends State<Details> {
                     isShowMore ? "Show more" : "Show less",
                     style: TextStyle(
                       fontSize: 18,
-                    ),
-                  ))
-            ],
-          ),
-        ));
-  }
-}
+
