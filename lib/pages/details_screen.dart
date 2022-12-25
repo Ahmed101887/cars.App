@@ -18,3 +18,5 @@ class _DetailsState extends State<Details> {
   bool isShowMore = true;
 
   @override
+  Widget build(BuildContext context) {
+    return Scaffold(
